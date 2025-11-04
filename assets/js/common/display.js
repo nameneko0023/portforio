@@ -1,8 +1,13 @@
 /*pc画面、スマホ画面の表示制御*/
 
 function switchDisplay(mode) {
-  document.cookie = `display=${mode}; path=/; max-age=31536000`;
-  location.reload();
+  const body = document.body;
+  body.classList.remove('pc-view', 'sp-view');
+  if (mode === 'pc') {
+    body.classList.add('pc-view');
+  } else if (mode === 'sp') {
+    body.classList.add('sp-view');
+  }
 }
 
 window.onload = function () {
