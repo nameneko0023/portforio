@@ -1,26 +1,25 @@
+/* 共通スタイル */
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 20px;
   text-align: center;
-}
-
-/* PC表示用スタイル */
-.pc-view {
-  background-color: blue;
+  background-color: #f0f8ff; /* PC背景色 */
   color: #333;
 }
 
-.pc-view h1 {
+h1 {
   font-size: 32px;
 }
 
-/* スマホ表示用スタイル */
-.sp-view {
-  background-color: red;
-  color: #444;
-}
+/* スマホ表示用（768px以下） */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fff0f5; /* スマホ背景色 */
+    color: #444;
+  }
 
-.sp-view h1 {
-  font-size: 24px;
+  h1 {
+    font-size: 24px;
+  }
 }
