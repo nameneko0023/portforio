@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center;
-  background-color: #f0f8ff; /* PC背景色 */
+  background-color: #18a10e; /* PC背景色 */
   color: #333;
 }
 
@@ -15,7 +15,7 @@ h1 {
 /* スマホ表示用（768px以下） */
 @media screen and (max-width: 768px) {
   body {
-    background-color: #fff0f5; /* スマホ背景色 */
+    background-color: #730d2f; /* スマホ背景色 */
     color: #444;
   }
 
