@@ -1,32 +1,22 @@
 <!DOCTYPE html>
-<html lang="jp"></html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Portforio</title>
-    <link rel="stylesheet" href="assets/CSS/theme.css">
-    <link rel="stylesheet" href="assets/CSS/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>スマホ・PC表示切替</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <header>
-        <h1>ポートフォリオ</h1>
-    </header>
+  <header>
+    <h1>表示モード切替デモ</h1>
+    <button onclick="switchDisplay('pc')">PC表示に切替</button>
+    <button onclick="switchDisplay('sp')">スマホ表示に切替</button>
+  </header>
 
-    <!--ボタン-->
-    <new-button>新規登録</new-button>
-    <login-button>ログイン</login-button>
+  <main>
+    <p>現在の表示モードに応じてスタイルが変わります。</p>
+  </main>
 
-    <!---メイン-->
-    <main>
-        <section>
-            <h2>ポートフォリオなど</h2>
-            <p>これはサンプルの段落です。ここにコンテンツを追加してください。</p>
-        </section>
-    </main>
-    
-    
-    <footer>
-        <p>&copy; 2025 nameneko0023</p>
-    </footer>
+  <script src="js/display.js"></script>
 </body>
 </html>
