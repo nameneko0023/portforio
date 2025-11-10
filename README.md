@@ -1,2 +1,3 @@
-# portforio
+# portfolio
+やりたいことをやりたいだけする
 ポートフォリオ
