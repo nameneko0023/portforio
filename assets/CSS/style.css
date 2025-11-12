@@ -47,18 +47,4 @@
     margin-right: 20px; /* 間隔を調整 */
 }
 
-/*フッター*/
-.footer-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 24px;
-  background-color: #333;
-  
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  line-height: 24px;
-  font-family: Arial, sans-serif;
-}
+
