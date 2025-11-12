@@ -12,7 +12,7 @@
 }
 .header-label
 {
-    font-size: 30px;
+    font-size: 20px;
 }
 .header-right
 {
@@ -34,6 +34,10 @@
 {
     padding-top: 180px;
     padding-bottom: 30px;
+}
+.page1 img{
+    width: auto;
+    height: 150px;
 }
 .Coution_massage
 {
