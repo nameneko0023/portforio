@@ -1,0 +1,50 @@
+/****************/
+/**モバイル画面**/
+/****************/
+
+/*1段目ヘッダー*/
+.header-row1{
+    height: 90px;
+}
+.Home-Logo
+{
+    height: 80px;
+}
+.header-label
+{
+    font-size: 30px;
+}
+.header-right
+{
+    visibility: hidden;
+}
+
+/*2段目ヘッダー*/
+.menue-list li
+{
+    line-height: 24px;
+    font-size: 20px;
+    margin-right: 20px; /* 間隔を調整 */
+    /*非表示*/
+    visibility: hidden;
+}
+
+/*メイン*/
+.page1
+{
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+.Coution_massage
+{
+    font-size: 20px;
+}
+
+/*フッター*/
+.footer-container {
+    line-height: 30px;
+}
+.copyright{
+    font-size: 14px;
+    height: 24px;
+}

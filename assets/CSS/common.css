@@ -1,0 +1,111 @@
+/********************/
+/****共通スタイル****/
+/********************/
+
+/*ヘッダー設定*/
+.header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/*1段目ヘッダー*/
+.header-row1{
+    display: flex;
+    /*height: 90px;*/
+    justify-content: space-between; /* 左右に配置 */
+    align-items: center;            /* 垂直方向中央揃え */
+    background-color: #3186cc;
+}
+.header-left,
+.header-center,
+.header-right {
+    flex: 1;
+}
+/*左端レイアウト設定*/
+.header-left {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.Home-Logo
+{
+  width: auto;
+  /*height: 80px;*/
+}
+/*中央レイアウト設定*/
+.header-center
+{
+    text-align: center;
+}
+/*右端レイアウト設定*/
+.header-right
+{
+    text-align: right;
+}
+
+/*2段目ヘッダー*/
+.header-row2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.menue-list
+{
+    margin: 0 auto;
+}
+.menue-list li
+{
+    display: inline-block;
+    /*
+    line-height: 24px;
+    font-size: 20px;
+    margin-right: 20px; /* 間隔を調整 
+    */
+}
+
+/*メイン*/
+.page1
+{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+.Coution_massage
+{
+    text-align: center;
+    left: auto;
+    /*font-size: 20px;*/
+}
+.menue-list a {
+    text-decoration: none;
+    font-weight: bold; /* 太字にするなど */
+}
+
+/*フッター*/
+.footer-container {
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    
+    /*line-height: 30px;*/
+    background-color: #333;
+}
+.copyright{
+    color: white;
+    /*
+    font-size: 14px;
+    height: 24px;
+    */
+    font-family: Arial, sans-serif;
+}
+
